@@ -1,0 +1,25 @@
+.nav-link a {
+    padding: 0px 5px;
+    font-size: 18px;
+    color: #282626;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.nav-link a:hover,
+.nav-link a:focus {
+    color: #CFB53B !important;
+}
+
+.navbar {
+    box-shadow: 0 12px 20px rgba(0,0,0,0.4);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    background: -webkit-linear-gradient(#00e0fe, #1107fe);
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+}

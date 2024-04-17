@@ -1,0 +1,49 @@
+body{
+  background: url("/public/images/bgsmall.png");
+}
+.hr-left {
+  position: absolute;
+  width: 33%;
+  left: 0;
+  /* top: 83px; */
+  color: #f49c28;
+}
+
+.hr-right {
+  position: absolute;
+  width: 33%;
+  right: 0;
+  /* top: 83px; */
+  color: #f49c28;
+}
+
+.dashboard_bg{
+  /* background: url("/public/images/bgsmall.png"); */
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dashboard_main {
+  /* background: url(/public/images/background_image.png); */
+  background-color: rgb(255, 255, 255) !important;
+  padding: 10px;
+}
+
+.table-responsive-sm::-webkit-scrollbar{
+  display: none;
+}
+
+@media Screen and (max-width: 450px) {
+  .dashboard_card{
+    padding:0%;
+  }
+}
+
+
+.dashboard_card{
+  border: solid 1px #be943a;
+  padding: 30px;
+  /* border-radius: 50px 50px 0px 0px; */
+  font-family:sans-serif
+  }

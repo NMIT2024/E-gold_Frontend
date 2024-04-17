@@ -1,0 +1,42 @@
+.balancePosition {
+    font-size: 16px;
+}
+
+.selectionData {
+    box-shadow: 1px 0px 2px 2px #E0E0E0;
+    padding: 16px;
+}
+.rate_cards1{
+    border: 1px black;
+    border-radius: 7px;
+    font-size: 17px;
+    padding: 3px;
+    text-align: center;
+    margin: 1%;
+    background: white;
+}
+
+.InwardFormContainer{
+    width: 80%;
+    background: white;
+    border: solid 1px #be943a;
+    /* border-radius: 2%; */
+    /* font-family: 'Quicksand', sans-serif; */
+    padding: 20px;
+    margin: 20px auto;
+ }
+ .InwardFormContainer h5{
+     text-decoration: underline;
+     text-align: center;
+     font-family: 'Playfair Display SC' ;
+     font-weight: bold;
+     color: #be943a;
+     font-size: 25px;
+ }
+
+ /* Add this to InwardForm.css or your styling file */
+.btn-common.disabled {
+    opacity: 0.5; /* Adjust the opacity as needed */
+    pointer-events: none; /* Disable pointer events for the button */
+  }
+  

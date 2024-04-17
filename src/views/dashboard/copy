@@ -1,0 +1,237 @@
+<Col>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>First Name</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="first name"
+                {...register("fname", { required: true })}
+              />
+              {errors.fname && <span>This field is required</span>}
+            </Form.Group>
+          </Col>
+          <Col>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Last Name</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="last name"
+                {...register("lname", { required: true })}
+              />
+              {errors.lname && <span>This field is required</span>}
+            </Form.Group>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Form.Label>Marital Status</Form.Label>
+            <br />
+            <div style={{ display: "inline-flex" }}>
+              <label className="container">
+                Single
+                {/* checked="checked"  ---inside input */}
+                <input type="radio" name="radio" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                Married
+                <input type="radio" name="radio" />
+                <span className="checkmark"></span>
+              </label>
+            </div>
+          </Col>
+          <Col>
+            <Form.Label>Gender</Form.Label>
+            <br />
+            <div style={{ display: "inline-flex" }}>
+              <label className="container">
+                Male
+                <input type="radio" name="radio1" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                Female
+                <input type="radio" name="radio1" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                Non-binary
+                <input type="radio" name="radio1" />
+                <span className="checkmark"></span>
+              </label>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Date Of Bith</Form.Label>
+              <Form.Control
+                type="date"
+                placeholder="DOB"
+                {...register("DOB", { required: true })}
+              />
+              {errors.DOB && <span>This field is required</span>}
+            </Form.Group>
+          </Col>
+          <Col>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Nationality</Form.Label>
+              <Form.Select aria-label="Default select example">
+                <option>Open this select menu</option>
+                <option value="1">Indian</option>
+                <option value="2">American</option>
+                <option value="3">Canadian</option>
+                <option value="4">Russian </option>
+                
+              </Form.Select>
+              {/* {errors.DOB && <span>This field is required</span>} */}
+            </Form.Group>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Email</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="enter email"
+                {...register("email", { required: true })}
+              />
+              {errors.email && <span>This field is required</span>}
+            </Form.Group>
+          </Col>
+          <Col>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Phone Number</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="enter Phone number"
+                {...register("number", { required: true })}
+              />
+              {errors.number && <span>This field is required</span>}
+            </Form.Group>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Street Address</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="street"
+                {...register("street", { required: true })}
+              />
+              {errors.street && <span>This field is required</span>}
+            </Form.Group>
+          </Col>      
+          <Col>
+            <Form.Group
+              className="mb-3"
+              controlId="formBasicEmail"
+            >
+              <Form.Label>City</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="city"
+                {...register("city", { required: true })}
+              />
+              {errors.city && <span>This field is required</span>}
+            </Form.Group>
+          </Col>
+        </Row>
+        <Row>
+        <Col>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>State/Province</Form.Label>
+              <Form.Select
+                aria-label="Default select example"
+                {...register("State", { required: true })}
+              >
+                <option>Open this select menu</option>
+                <option value="1">Karnataka</option>
+                <option value="2">Andhra Pradesh</option>
+                <option value="3">Telangana</option>
+                <option value="4">Tamil Nadu</option>
+                <option value="5">Kerala</option>
+                <option value="6">Maharashtra</option>
+                <option value="7">Madhya Pradesh</option>
+                <option value="8">Gujarat</option>
+                <option value="9">Rajasthan</option>
+                <option value="10">Uttarakhand</option>
+                <option value="11">Odisha</option>
+              </Form.Select>
+              {errors.State && <span>This field is required</span>}
+            </Form.Group>
+          </Col>
+          {/* <Col>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>State/Province</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="State/Province"
+                {...register("State", { required: true })}
+              />
+              {errors.State && <span>This field is required</span>}
+            </Form.Group>
+          </Col> */}
+          <Col>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Postal Code</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Postal code"
+                {...register("Postalcode", { required: true })}
+              />
+              {errors.Postalcode && <span>This field is required</span>}
+            </Form.Group>
+          </Col>
+        </Row>
+        <Row>
+        <Col>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Country</Form.Label>
+              <Form.Select
+                aria-label="Default select example"
+                {...register("city", { required: true })}
+              >
+                {/* <option>Open this select menu</option> */}
+                <option value="1">Indian</option>
+
+              </Form.Select>
+              {errors.city && <span>This field is required</span>}
+            </Form.Group>
+          </Col>
+          {/* <Col>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Country</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Country"
+                {...register("Country", { required: true })}
+              />
+              {errors.Country && <span>This field is required</span>}
+            </Form.Group>
+          </Col> */}
+          <Col>
+            <Form.Group className="mb-3" controlId="formBasicupload">
+              <Form.Label>Upload proof of identity</Form.Label>
+              <Form.Control
+                type="file"
+                placeholder="Country"
+                {...register("file", { required: true })}
+              />
+              {errors.Country && <span>This field is required</span>}
+            </Form.Group>
+          </Col>
+        </Row>
+        <Row>
+          <Form.Label>Declaration</Form.Label>
+          <p>
+            <input type="checkbox" style={{ width: "20px" }} />
+            &nbsp;&nbsp; I hereby declare that the information provided in this
+            form is accurate and complete. I confirm that if any information is
+            found incorrect and/or incomplete, that leads to voilation of
+            regulations may initiate legal actions, and I accept that I am the
+            responsible party for any and all charges, penalties and voilations.
+          </p>
+        </Row>

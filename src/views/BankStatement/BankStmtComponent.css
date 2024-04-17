@@ -1,0 +1,28 @@
+.loginBtn {
+    width: 160px;
+    height: 38px;
+    border-radius: 8%;
+}
+
+.BankStmtContainer{
+    width: 50%;
+    background: white;
+    border: solid 1px #be943a;
+    border-radius: 2%;
+    /* font-family: 'Quicksand', sans-serif; */
+    padding: 100px;
+    margin: 50px auto;
+    height: 100%;
+ }
+ .BankStmtContainer h5{
+     text-decoration: underline;
+     text-align: center;
+     font-family: 'Playfair Display SC' ;
+     font-weight: bold;
+     color: #be943a;
+     font-size: 25px;
+ }
+.BankStmt{
+    width: 100%;
+    height: 100%;
+}

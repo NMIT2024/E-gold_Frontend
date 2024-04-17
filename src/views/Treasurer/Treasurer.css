@@ -1,0 +1,84 @@
+.treasurer-container {
+    padding: 15px;
+}
+
+.selectionData {
+    box-shadow: 1px 0px 2px 2px #E0E0E0;
+    padding: 16px;
+}
+
+.jewellerDetails {
+    box-shadow: 1px 0px 2px 2px #E0E0E0;
+    padding: 16px;
+    width: 50%;
+}
+
+.positionData {
+    color: #CFB53B;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.common-green {
+    color: green
+}
+
+.icon-common {
+    background: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    border-color: #CFB53B;
+}
+
+.icon-common:hover {
+    background-color: #CFB53B;
+}
+.rate_cards{
+    border: 1px solid black;
+    /* border-radius: 40px; */
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    margin: 1%;
+    background: white;
+}
+
+/* .history_data{
+    background: white;
+    padding: 17px;
+    border-radius: 12px;
+    line-height: 25px;
+    margin-bottom: 12px;
+} */
+.rate_list{
+    border: 1px solid black;
+    margin: 2%;
+    padding: 10px;
+    max-width: 500px;
+    background: white;
+}
+
+.inward_button a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.TreasurerContainer{
+    width: 80%;
+    background: white;
+    border: solid 1px #be943a;
+    /* border-radius: 2%; */
+    /* font-family: 'Quicksand', sans-serif; */
+    padding: 20px;
+    margin: 20px auto;
+ }
+ .TreasurerContainer h5{
+     text-decoration: underline;
+     text-align: center;
+     font-family: 'Playfair Display SC' ;
+     font-weight: bold;
+     color: #be943a;
+     font-size: 25px;
+ }

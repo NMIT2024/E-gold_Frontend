@@ -1,0 +1,60 @@
+.TreasurerReportContainer{
+    width: 80%;
+    background: white;
+    border: solid 1px #be943a;
+    /* border-radius: 2%; */
+    padding: 20px;
+    margin: 20px auto;
+ }
+ .TreasurerReportContainer h5{
+     text-decoration: underline;
+     text-align: center;
+     font-family: 'Playfair Display SC' ;
+     font-weight: bold;
+     color: #be943a;
+     font-size: 25px;
+ }
+
+ .tborder{
+    border: 1px solid #000;
+    /* border: solid 1px #dee2e6; */
+ }
+ .TreasurerReportContainer h6{
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .treasurerform-card{
+  background-color: rgb(241, 241, 241);
+  padding: 30px;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+ }
+
+/* TreasurerReport.css */
+@media print {
+  @page {
+    margin: 0; /* Remove default page margins */
+  }
+
+  body {
+    border: 2px solid #000; /* Border style and color for the entire page */
+    margin: 40px; /* Add margin to the body for a better visual appearance */
+    margin-top: 20px; /* Move the content down by adjusting this value */
+    text-align: center; /* Center the content horizontally */
+  }
+
+  .tborder {
+    border: 1px solid #000; /* Adjust the border style and color as needed */
+  }
+  .print-table {
+    padding-top: 20px; /* Adjust this value to move the table down */
+  }
+
+  /* Add any other print-specific styles here */
+}
+  

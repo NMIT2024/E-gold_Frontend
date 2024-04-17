@@ -1,0 +1,23 @@
+.custom-checkbox .form-check-input:checked {
+  /* Checked checkbox color */
+  background-color: #be943a;
+  border-color: #be943a;
+}
+.conversion_icon{
+  font-size: 28px;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.purchase_card{
+border: solid 1px #be943a;
+padding: 30px;
+border-radius: 50px 50px 0px 0px;
+font-family:sans-serif
+}
+.main_btn {
+  margin-right: 5px;
+  color: #be943a;
+  /* background-color: rgb(255, 244, 246); */
+  border: solid 1px #be943a;
+}

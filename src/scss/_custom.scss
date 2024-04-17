@@ -1,0 +1,26 @@
+// body {
+//     background: rgb(207, 181, 59);
+//     // background: url("/public/images/background_image.png");
+//     background: radial-gradient(circle, rgba(207, 181, 59, 0.8) 0%, rgba(255, 255, 255, 1) 100%);
+// }
+
+
+.callout {
+    border-left-color: #CFB53B !important
+}
+
+.btn-common, .loginBtn {
+    color: white;
+    // color: rgb(40, 38, 38);
+    border-radius: 0;
+    font-weight: bold;
+    background: rgb(4, 4, 4);
+    border: 1.5px solid rgb(4, 4, 4);
+    // background: radial-gradient(circle, rgba(207, 181, 59, 0.8) 0%, rgb(255, 255, 255) 100%);
+    // border: 1.5px solid #CFB53B;
+}
+
+.btn-common {
+    width: 120px;
+    height: 35px;
+}

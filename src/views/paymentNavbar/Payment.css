@@ -1,0 +1,129 @@
+.paymentForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 25px;
+  min-height: 100vh;
+}
+ 
+.paymentForm form{
+  padding:20px;
+}
+ 
+.paymentForm form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+ 
+.paymentForm form .row .col{
+  flex:1 1 250px;
+}
+ 
+.paymentForm form .row .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+ 
+.paymentForm form .row .col .inputBox{
+  margin:15px 0;
+}
+ 
+.paymentForm form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+ 
+.paymentForm form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+ 
+.paymentForm form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+ 
+.paymentForm form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+ 
+.paymentForm form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+ 
+.paymentForm form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+ 
+.paymentForm form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #0d6efd;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+ 
+.paymentForm form .submit-btn:hover{
+  background: #065bdb;
+}
+ 
+ 
+/* YourComponent.css */
+ 
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.date-picker {
+  padding: 13px; /* Adjust padding as needed */
+  font-size: 14px; /* Adjust font size as needed */
+  /* Add any other styles you want for the select element */
+}
+
+/* Style for the options within the select element */
+.date-picker option {
+  font-size: 14px; /* Adjust font size as needed */
+  /* Add any other styles you want for the options */
+}
+
+.month-dropdown {
+  padding: 13px; /* Adjust padding as needed */
+  font-size: 14px; /* Adjust font size as needed */
+  /* Add any other styles you want for the select element */
+}
+
+/* Style for the options within the select element */
+.month-dropdown option {
+  font-size: 14px; /* Adjust font size as needed */
+  /* Add any other styles you want for the options */
+}
+
+.PaymentContainer{
+  width: 50%;
+  background: white;
+  border: solid 1px #be943a;
+  /* border-radius: 2%; */
+  /* font-family: 'Quicksand', sans-serif; */
+  padding: 20px;
+  margin: 20px auto;
+}
+.PaymentContainer h5{
+   text-decoration: underline;
+   text-align: center;
+   font-family: 'Playfair Display SC' ;
+   font-weight: bold;
+   color: #be943a;
+   font-size: 25px;
+}

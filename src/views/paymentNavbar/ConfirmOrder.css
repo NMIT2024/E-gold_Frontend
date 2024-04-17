@@ -1,0 +1,163 @@
+/* .confirmLabel {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 80px;
+}
+
+tbody, td, tfoot, th, thead, tr{
+    border: 0;
+}
+
+.tableTitle {
+    background-color: whitesmoke !important;
+}
+
+.basicInfo {
+    text-align: left;
+    padding: 0 15px;
+    line-height: 40px;
+}
+
+.modalBody{
+    background: url("https://t4.ftcdn.net/jpg/01/38/49/47/240_F_138494750_wHyCacR5Wqj1ylzn28qPrSglV51AEq30.jpg");
+    height: 370px;
+    text-align: center;
+}
+
+
+.modalBody h4 {
+    margin: 27% auto;
+    line-height: 45px;
+    color: #e4b116;
+    font-size: 21px;
+}
+
+
+.confirmLabel {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 80px;
+}
+ 
+tbody, td, tfoot, th, thead, tr{
+    border: 0;
+}
+ 
+.tableTitle {
+    background-color: whitesmoke !important;
+}
+ 
+.basicInfo {
+    text-align: left;
+    padding: 0 15px;
+    line-height: 40px;
+}
+ 
+.modalBody{
+    background: url("https://t4.ftcdn.net/jpg/01/38/49/47/240_F_138494750_wHyCacR5Wqj1ylzn28qPrSglV51AEq30.jpg");
+    height: 370px;
+    text-align: center;
+}
+ 
+ 
+.modalBody h4 {
+    margin: 27% auto;
+    line-height: 45px;
+    color: #e4b116;
+    font-size: 21px;
+} */
+
+.confirmLabel {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 80px;
+}
+ 
+tbody, td, tfoot, th, thead, tr{
+    border: 0;
+}
+ 
+.tableTitle {
+    background-color: whitesmoke !important;
+}
+ 
+.basicInfo {
+    text-align: left;
+    padding: 0 15px;
+    line-height: 40px;
+}
+ 
+.modalBody{
+    background: url("https://t4.ftcdn.net/jpg/01/38/49/47/240_F_138494750_wHyCacR5Wqj1ylzn28qPrSglV51AEq30.jpg");
+    height: 370px;
+    text-align: center;
+}
+ 
+ 
+.modalBody h4 {
+    margin: 27% auto;
+    line-height: 45px;
+    color: #e4b116;
+    font-size: 21px;
+}
+ 
+ 
+ 
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7%;
+    margin-top: 10%;  
+  }
+ 
+ 
+  body {
+    margin: 0;
+    padding: 0;
+    background: url("/public/images/bgsmall.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+ 
+  .successContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 5%;
+  }
+ 
+  .successCardContainer {
+    border: solid 1px #cfb53b;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .successHeader {
+    margin-bottom: 10px;
+  }
+ 
+  .successMessage {
+    margin-top: 10px;
+  }
+ 
+  .goToWalletButton {
+    padding: 10px 20px;
+    background-color: #cfb53b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }

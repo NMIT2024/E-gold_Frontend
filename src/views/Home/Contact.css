@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+   
+  body{
+    overflow:hidden ;
+  }
+   
+   
+  .footer_title{
+      color: #be943a;
+      /* background-color: white; */
+      max-width: fit-content;
+      padding: 0.5%;
+      font-family: -webkit-body;
+    }
+    .site_map a {
+      font-size: 20px;
+      width: 400px;
+      color: gray;
+      text-decoration: none;
+    }
+    .main_icons {
+      text-align: end;
+      cursor: pointer;
+    }
+    .icon_one {
+      font-size: 30px;
+    }
+    .icon_two {
+      font-size: 30px;
+      margin-left: 20px;
+    }
+    .icon_three {
+      font-size: 30px;
+      margin-left: 20px;
+    }
+    .icon_four {
+      font-size: 30px;
+      margin-left: 20px;
+    }

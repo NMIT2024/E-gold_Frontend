@@ -1,0 +1,28 @@
+ .couponSuccess{
+    background: url("https://static.vecteezy.com/system/resources/previews/003/442/297/non_2x/fireworks-party-confetti-floating-from-the-party-fireworks-vector.jpg");
+    height: 370px;
+    text-align: center;
+    padding: 30% 5%;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+}
+
+.InwardFormContainer{
+    width: 80%;
+    background: white;
+    border: solid 1px #be943a;
+    /* border-radius: 2%; */
+    /* font-family: 'Quicksand', sans-serif; */
+    padding: 20px;
+    margin: 20px auto;
+ }
+ .InwardFormContainer h5{
+     text-decoration: underline;
+     text-align: center;
+     font-family: 'Playfair Display SC' ;
+     font-weight: bold;
+     color: #be943a;
+     font-size: 25px;
+ }
+
+  

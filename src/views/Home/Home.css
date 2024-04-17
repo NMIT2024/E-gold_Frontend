@@ -1,0 +1,29 @@
+/* .bgHome{
+  background-color: rgb(182, 93, 93);
+} */
+
+.bg1{
+  background-color: rgb(223, 230, 231);
+  padding-bottom: 1%;
+}
+
+.head{
+  /* background-color: rgb(42, 115, 119); */
+}
+
+.foot{
+  margin: 0%;
+  /* padding: 0%; */
+  background-color: #035297;  ;
+  /* padding-top: 3.6%; */
+  /* margin-top: -1%; */
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.footlink{
+  /* font-size: 11px;
+  padding: 28px 0; */
+  /* display: flex; */
+  justify-content: space-between;
+}

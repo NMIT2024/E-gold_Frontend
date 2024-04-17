@@ -1,0 +1,35 @@
+.creditContainer{
+   width: 50%;
+   background: white;
+   border: solid 1px #be943a;
+   border-radius: 2%;
+   /* font-family: 'Quicksand', sans-serif; */
+   padding: 20px;
+   margin: 20px auto;
+}
+.creditContainer h5{
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Playfair Display SC' ;
+    font-weight: bold;
+    color: #be943a;
+    font-size: 25px;
+}
+.image{
+    background: url("/public/images/bgsmall.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-title{
+    color: #CFB53B;
+    font-weight: inherit;
+    margin-bottom: 20px;
+    font-family: -webkit-body;
+    font-size: 24px;
+}
+
+.loginBtn {
+    width: 160px;
+    height: 50px;
+}

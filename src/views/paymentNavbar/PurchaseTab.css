@@ -1,0 +1,146 @@
+.react-tabs__tab-list {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: #3c3e43;
+}
+
+.react-tabs__tab {
+  list-style: none;
+  padding: 12px 6px;
+  cursor: pointer;
+  color: #bbb;
+}
+
+.menu_title {
+  margin: 0;
+}
+
+.react-tabs__tab--selected {
+  background: #1c1d1f;
+  border-color: #1c1d1f;
+  border-left: 4px solid #03a9f4;
+  color: white;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+  width: 100%;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.react-tabs__tab {
+  padding-left: 24px;
+}
+
+.react-tabs__tab--selected {
+  padding-left: 21px;
+}
+
+.panel-content {
+  text-align: center;
+}
+
+#crumbs {
+  padding: 0;
+}
+
+#crumbs .tab-content {
+  background-color: white;
+}
+
+#crumbs h1 {
+  padding: 0 0 30px;
+  text-transform: uppercase;
+  font-size: .9rem;
+  font-weight: 600;
+  letter-spacing: .01rem;
+  color: #8093A7;
+}
+
+#crumbs .nav-tabs{
+  border: 0;
+  width: 100%;
+}
+
+#crumbs button {
+  border: 0;
+}
+
+#crumbs li {
+  display: inline;
+  width: 25%;
+}
+
+/* #crumbs ul{ */
+  /* background: #F5F5F5; */
+  /* border-bottom: #1c1d1f; */
+/* } */
+
+#crumbs li{
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #be943a;
+  display: flex;
+  /* border: 1px solid #CFB53B; */
+  /* width: 100px; */
+  /* height: 100px; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 14px auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  position: relative;
+  font-weight: 600;
+  /* text-decoration: underline; */
+}
+
+#crumbs .nav-tabs .nav-item.show .nav-link, #crumbs .nav-tabs .nav-link.active{
+  box-shadow: 0px 2px 10px 3px #be943a;
+  /* padding: 28px; */
+  /* border-radius: 50%; */
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+.buttonModel {
+  background-color: #A98939;
+  border-color: #A98939;
+}
+
+.buttonModel:disabled {
+  background-color: #A98939;
+  border-color: #A98939;
+}
+
+.buttonModel:focus, .buttonModel:active, .buttonModel:hover {
+  background-color:#CAA344;
+  border-color: #CAA344;
+}
+
+.contentForm {
+  padding: 15px;
+  /* text-align: center; */
+  text-align: start;
+  font-family:sans-serif 
+}
+
+.horizontal-line::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid black; /* Define the line color and thickness */
+  margin-top: 8px; /* Adjust the distance between the line and the text */
+}
+
+.btn-common.disabled {
+  background-color: grey; /* Set your desired color for the disabled state */
+  color: white; /* Set your desired text color for the disabled state */
+  cursor: not-allowed; /* Optional: Show not-allowed cursor for disabled state */
+}
