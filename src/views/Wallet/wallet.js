@@ -135,7 +135,10 @@ const Wallet = () => {
             {/* Transaction History */}
             <div style={{ fontFamily: "sans-serif" }}>
               <h4>Transaction History</h4>
-              <DataTable value={purchaseCurrentItems}>
+              <DataTable
+                value={purchaseCurrentItems}
+                emptyMessage="No transactions found"
+              >
                 <Column
                   style={{ borderBottom: "1px solid #ddd" }}
                   field="createdOn"
@@ -167,7 +170,10 @@ const Wallet = () => {
             {/* Coupon History */}
             <div style={{ fontFamily: "sans-serif" }}>
               <h4>Redeem History</h4>
-              <DataTable value={redeemCurrentItems}>
+              <DataTable
+                value={redeemCurrentItems}
+                emptyMessage="No Redeem history available"
+              >
                 <Column
                   style={{ borderBottom: "1px solid #ddd" }}
                   field="createdOn"

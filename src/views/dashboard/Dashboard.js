@@ -142,14 +142,14 @@ const Dashboard = ({ socket }) => {
         id: `${socket.id}${Math.random()}`,
         socketID: socket.id,
       });
-      
+
       toast.success(`New rate generated`);
     }
   };
 
   return (
     <>
-     <ToastContainer />
+      <ToastContainer />
       <div className="dashboard_main" style={{ position: "relative" }}>
         <h2
           style={{
@@ -165,7 +165,7 @@ const Dashboard = ({ socket }) => {
         </h2>
         <Row>
           <Col>
-            <h3 style={{ margin: "10px" }}>Daily Basis</h3>
+            <h3 style={{ margin: "10px" }}>Daily Basis & Weekly Basis</h3>
           </Col>
           {goldRate !== null && (
             <Col>
@@ -193,6 +193,7 @@ const Dashboard = ({ socket }) => {
                         </th>
                       );
                     })}
+                    <th scope="col">Total</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -204,6 +205,7 @@ const Dashboard = ({ socket }) => {
                       salesCountArray.map((item, idx) => {
                         return <td key={idx}>{item}</td>;
                       })}
+                    <td>{salesCountArray.reduce((sum, a) => sum + a, 0)}</td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
@@ -213,6 +215,7 @@ const Dashboard = ({ socket }) => {
                       couponCountArray.map((item, idx) => {
                         return <td key={idx}>{item}</td>;
                       })}
+                    <td>{couponCountArray.reduce((sum, a) => sum + a, 0)}</td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
@@ -222,6 +225,7 @@ const Dashboard = ({ socket }) => {
                       walletCountArray.map((item, idx) => {
                         return <td key={idx}>{item}</td>;
                       })}
+                    <td>{walletCountArray.reduce((sum, a) => sum + a, 0)}</td>
                   </tr>
                   <tr>
                     <th scope="row">4</th>
@@ -231,6 +235,7 @@ const Dashboard = ({ socket }) => {
                       quantityListArray.map((item, idx) => {
                         return <td key={idx}>{item.toFixed(2)}</td>;
                       })}
+                    <td>{quantityListArray.reduce((sum, a) => sum + a, 0)}</td>
                   </tr>
                 </tbody>
               </table>
@@ -241,7 +246,7 @@ const Dashboard = ({ socket }) => {
               <Row></Row>
               <Row>
                 <Col>
-                  <h5>Gold_Rate_Ceilng</h5>
+                  <h5>Gold Rate Ceilng</h5>
                 </Col>
                 <Col>
                   <InputText
@@ -256,7 +261,7 @@ const Dashboard = ({ socket }) => {
               </Row>
               <Row>
                 <Col>
-                  <h5 style={{ marginTop: "10px" }}>Gold_Rate_Floor</h5>
+                  <h5 style={{ marginTop: "10px" }}>Gold Rate Floor</h5>
                 </Col>
                 <Col>
                   <InputText

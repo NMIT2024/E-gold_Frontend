@@ -1,20 +1,25 @@
 body {
-  background: url("/public/images/background_image.png");
+  background: url(/public/images/background_image.png);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
 }
 
-.title_login{
+.title_login {
   color: #be943a;
   margin-bottom: 20px;
   font-family: 'Playfair', serif;
   font-size: 28px;
 }
+
 .loginBtn {
   width: 160px;
   height: 50px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-top: 15px;
+  border: 2px solid black;
 }
 
 .img1 {
@@ -22,3 +27,28 @@ body {
   opacity: 80%;
 }
 
+
+
+.loginForm {
+  background-color: white;
+  padding: 42px;
+  border-radius: 8%;
+  width: 100%;
+  max-width: 650px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.loginForm .divisionRow {
+  margin-bottom: 20px;
+}
+
+.resendOTP {
+  color: #be943a;
+  cursor: pointer
+}
+
+.errors {
+  color: red;
+}

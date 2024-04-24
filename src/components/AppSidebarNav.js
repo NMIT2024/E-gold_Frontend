@@ -20,12 +20,12 @@ export const AppSidebarNav = ({ items }) => {
   const navLink = (name, icon, index) => {
     const icons = [
       cilHome,
-      cilBank,
-      cilBank,
-      cilBank,
-      cilCart,
       cilCash,
+      cilContact,
+      cilPuzzle,
+      cilCart,
       cilCreditCard,
+      cilAccountLogout,
       cilContact,
       cilPuzzle,
       cilContact,

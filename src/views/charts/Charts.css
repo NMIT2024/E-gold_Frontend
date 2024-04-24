@@ -11,10 +11,20 @@
 }
 
 .chart-item {
-  margin: 0px 100px; /* Optional: Add spacing between chart items */
+  margin: 0px 200px; /* Optional: Add spacing between chart items */
+
 }
 
 .golden-border {
   border: 1px solid #be943a;
   border-radius: 10px; /* adjust the border radius as per your design */
 }
+.p-dropdown-items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+
+

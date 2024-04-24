@@ -157,7 +157,7 @@ function Redeem({ socket }) {
       fetch(`${serverURL}/purchase`, headers)
         .then((res) => res.json())
         .then((data) => {
-          const totalgrm = data.result?.[0]?.totalquantity;
+          const totalgrm = data.result?.[0]?.totalquantity || 0;
           setGoldWeight(totalgrm);
         })
         .catch((error) => {
@@ -295,7 +295,7 @@ function Redeem({ socket }) {
                       <Form.Control
                         aria-label="Amount (to the nearest dollar)"
                         placeholder="0.00"
-                        type="text"
+                        type="number"
                         name="title"
                         value={priceValue}
                         onChange={(e) => {
@@ -303,6 +303,7 @@ function Redeem({ socket }) {
                           changeHandler(e.target.value, isCash);
                           setIsInputFilled(!!e.target.value);
                         }}
+                        disabled={goldWeight <= 0}
                       />
                       <InputGroup.Text
                         style={{ backgroundColor: "white", color: "#be943a" }}
@@ -365,7 +366,7 @@ function Redeem({ socket }) {
                         )}
                       </Form.Group>
                     )}
-                    {!isOTPField && (inGram > 2) && (
+                    {!isOTPField && inGram > 2 && (
                       <Form.Group
                         className="text-center"
                         controlId="formBasicEmail"
@@ -393,10 +394,11 @@ function Redeem({ socket }) {
                   </Col>
                 </Row>
               </div>
-              
             </div>
           </CCard>
-          <p style={{color:"red"}}><b>Above 2 gram of e-gold is redeemable</b></p>
+          <p style={{ color: "red" }}>
+            <b>Above 2.1 gram of e-gold is redeemable</b>
+          </p>
         </Container>
       </div>
 
