@@ -171,7 +171,7 @@ export default function Login() {
                         readOnly={validPhone}
                       />
                       {errors.phoneNumber && (
-                        <span className="errors">Pnone number is required</span>
+                        <span className="errors">Phone number is required</span>
                       )}
 
                       {phoneValidation && (
@@ -229,7 +229,7 @@ export default function Login() {
                         {...register("tc_agree", { required: true })}
                       />
                       {errors.tc_agree && (
-                        <span className="errors">This is required</span>
+                        <span className="errors">Term and condition is required</span>
                       )}
                     </div>
                     <Button

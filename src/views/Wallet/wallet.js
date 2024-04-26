@@ -172,7 +172,7 @@ const Wallet = () => {
               <h4>Redeem History</h4>
               <DataTable
                 value={redeemCurrentItems}
-                emptyMessage="No Redeem history available"
+                emptyMessage="No Redeem history found"
               >
                 <Column
                   style={{ borderBottom: "1px solid #ddd" }}

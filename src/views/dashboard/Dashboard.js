@@ -68,7 +68,7 @@ const Dashboard = ({ socket }) => {
     const date = new Date();
     const hours = date.getHours();
     setHour(hours);
-    dispatch(getGraphData());
+    dispatch(getGraphData({ input: "all" }));
   }, []);
 
   useEffect(() => {
@@ -209,7 +209,7 @@ const Dashboard = ({ socket }) => {
                   </tr>
                   <tr>
                     <th scope="row">2</th>
-                    <td>Gold Redemption</td>
+                    <td>Number of Gold Redemption</td>
                     {couponCountArray &&
                       couponCountArray.length > 0 &&
                       couponCountArray.map((item, idx) => {
@@ -235,7 +235,7 @@ const Dashboard = ({ socket }) => {
                       quantityListArray.map((item, idx) => {
                         return <td key={idx}>{item.toFixed(2)}</td>;
                       })}
-                    <td>{quantityListArray.reduce((sum, a) => sum + a, 0)}</td>
+                    <td>{quantityListArray.reduce((sum, a) => sum + a, 0).toFixed(2)}</td>
                   </tr>
                 </tbody>
               </table>

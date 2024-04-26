@@ -25,7 +25,7 @@ export const getUserInfo = createAsyncThunk(
 );
 
 export const getGraphData = createAsyncThunk("dashboard", async (data) => {
-  const response = await httpGetService("dashboard", data);
+  const response = await httpPostService("dashboard", data);
   return response;
 });
 
